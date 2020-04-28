@@ -19,12 +19,12 @@ class LandingPage extends Component {
 
                         <hr/>
 
-                        <p>HTML/CSS | React | Python | Javascript | Java | Spring | </p>
+                        <p>HTML/CSS | React | Python | Django | Javascript | Java | Spring  </p>
 
                         <div className="social-links">
 
                             {/* LinkedIn link*/}
-                            <a href="" rel="noopener noreferrer"  target="_blank">
+                            <a href="https://www.linkedin.com/in/christopher-pupo/" rel="noopener noreferrer"  target="_blank">
                                 <i className= "fa fa-linkedin-square" aria-hidden="true"/>
                             </a>
 

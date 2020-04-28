@@ -206,6 +206,7 @@
   font-size: 45px;
   padding-right: 5rem;
   color: white; 
+  justify-items: left;
 }
 
 .contact-grid p {
@@ -215,6 +216,8 @@
   font-size: 40px;
   line-height: 1.5;
 }
+
+
 
 
 

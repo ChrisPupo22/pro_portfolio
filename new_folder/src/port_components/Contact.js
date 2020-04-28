@@ -18,7 +18,7 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', color: 'white'}}>
                                         <i className="fa fa-paper-plane" aria-hidden="true"/>
-                                        <a href='mailto:cpupo822@gmail.com' target='_blank'>Cpupo822@gmail.com</a>
+                                        Cpupo822@gmail.com
                                         </ListItemContent>
                                 </ListItem>
                                 <ListItem>

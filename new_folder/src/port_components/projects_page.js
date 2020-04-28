@@ -77,11 +77,11 @@ class Project extends Component {
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
     <CardTitle style={{color:'white', height:'176px', background:'url(https://lh6.googleusercontent.com/rU8dZ0x67y63AeujFhM79UG_I3ZagEqTmDffagrUVuBI5eXPHtW2Z7zP1KU1MLKtl0wU5eNS_QHU-9v3GUJgxlKYeAR1yKADY8xCj7xMrpL8z9Rr2Zde9_OGsmXTigvBr7DEWggV) center/cover' }}>Adventure</CardTitle>
     <CardText>
-    A fun and intuitive maze style game with over 500 active rooms built in a neural network style map, each with their own attributes. The game also includes a fully functioning character/player model that the user is in full control of!
+    A fun and intuitive online multiplayer maze game with over 500 active rooms, built in a neural network style map, each with their own attributes. The game also includes a fully functioning character/player model that the user is in full control of!
     </CardText>
     <CardActions border>
       <Button onClick={() => window.open('https://github.com/binary-assasins', "_blank")} colored>Github</Button>
-      
+      <Button onClick={() => window.open('https://fun-game-ba.herokuapp.com/', "_blank")} colored>Check it out here!</Button>
     </CardActions>
     <CardMenu style={{color:'fff'}}></CardMenu>
     </Card>
