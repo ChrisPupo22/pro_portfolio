@@ -3,6 +3,16 @@
   flex-direction: column;
 } */
 
+
+.mdl-layout__inner-container .mdl-layout__content {
+  z-index: -1;
+  
+}
+
+/* .mdl-layout__inner-container {
+  z-index: -1;
+} */
+
 .navbar-style header{
   color: white;
   background-color: black;
@@ -25,7 +35,7 @@
 }
 
 #cardsTabs {
-  padding-top: 70px;
+  
   border-bottom: none;
 }
 
@@ -75,6 +85,7 @@
   height: 90vh; 
   padding-top: 80px;
   overflow-y: hidden;
+  
 
 }
 
@@ -189,24 +200,68 @@
   padding-bottom: 250px;
   height: 900px; 
   overflow: hidden;
+  flex-direction: row;
+  
 }
 
-.resume-grid img {
+.theResume {
   height: 620px; 
-  transition: all .5s ease-in-out;
-  overflow-y: scroll;
 }
 
-.resume-grid :hover {
-  transform: scale(1.12); 
-  overflow-y: scroll;
+.resume-img-div { 
+  transition: all .5s;
+  margin-top: 45px;
+  z-index: 3;
+ 
 }
+
+.resume-img-div :hover {
+  transform: scale(1.15); 
+  
+}
+
+.download-comp {
+  z-index: 4;
+  margin-top: 55px;
+  height: 25px; 
+  margin-left: 45px;
+  
+  
+
+}
+.download-comp a {
+  border:2px solid white; 
+  background: black;
+  border-radius: 5px;
+  padding: 5px; 
+  color: white; 
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.download-comp :hover {
+  transition: .3s;
+  color: black; 
+  background: white;
+  border: 2px solid black;
+
+}
+
+
+.contact-list .mdl-list{
+  justify-content: center;
+}
+
 
 .contact-list i {
   font-size: 45px;
   padding-right: 5rem;
   color: white; 
-  justify-items: left;
+  
+}
+
+.mdl-list {
+  justify-content: center;
 }
 
 .contact-grid p {
@@ -217,22 +272,71 @@
   line-height: 1.5;
 }
 
-.about-page p{
-  border: 3px solid black;
-  border-radius: 3px; 
-  font-size: 30px;
-  background: white;
-  line-height: 1.4;
-  width: 50%; 
-  justify-content: center;
-  margin: auto; 
+.about-icons {
+  font-size: 75px;
+  /* width: 100%;  */
+  display: flex; 
+  width: 99%; 
+  justify-content: space-around;
+  color: white; 
+  margin: auto;  
+ 
+  
 }
 
-.about-page .about-icons  {
-  font-size: 65px;
-  justify-content: space-evenly;
-  
-  
+.icon-descriptions {
+  display: flex;
+  width: 100%; 
+  height: 65px; 
+  margin-bottom: 45px;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 5px; 
+ 
+}
+
+.icon-descriptions p {
+  line-height: 1.5;
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 21.2px;
+  justify-content: center;
+  margin: auto;
+  width: 100%; 
+}
+
+
+/* .about-icons i {
+  border: 2px solid black;
+} */
+
+
+.character-description {
+  margin-top: 35px;
+  display: flex; 
+  flex-direction: column;
+}
+
+.character-description p {
+  font-size: 25px;
+  line-height: 1.4;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.about-page h2 {
+  margin-bottom: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#test1 {
+  border: 1px solid white; 
+}
+
+.contact-list a {
+  color: white; 
+  text-decoration: none;
 }
 
 

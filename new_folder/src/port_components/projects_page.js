@@ -94,6 +94,7 @@ class Project extends Component {
   render() {
       return(
         <div id="cardsTabs">
+          <h1>Projects</h1>
           <Tabs id="mainTabs" activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
             <Tab>React</Tab>
             <Tab>Java/Spring</Tab>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Button } from 'react-mdl'
-import resume_pic from '../images/resume_img.jpg'
+import resume_pic from '../images/resume-pic-updated.jpeg'
 // import resume from '../docs/final-resume-styled copy.pdf'
 import { Link } from 'react-router-dom'
 // import pdf from '../..'
@@ -11,15 +11,17 @@ class Resume extends Component {
   click() {
     console.log('clicked')
   }
-
-
     render () {
         return(
             <div className='resume-grid'>
+              <div className='resume-img-div'>
                 <img className='theResume' src={resume_pic} />
-                {/* <Link download='' to='../docs/final-resume-styled copy.pdf' target='_blank'> Download Resume</Link> */}
-                <Link onClick={this.click} to='/final-resume-styled.pdf' download>Download Resume</Link>
-                <div onClick={this.click}>Button</div>
+              </div>
+              <div className='download-comp'> 
+                <Link to='/resume-copy.pdf' target='_blank' download>
+                  Download Here!
+                </Link>
+              </div>
             </div>
         )
     }
