@@ -217,6 +217,26 @@
   line-height: 1.5;
 }
 
+.about-page p{
+  border: 3px solid black;
+  border-radius: 3px; 
+  font-size: 30px;
+  background: white;
+  line-height: 1.4;
+  width: 50%; 
+  justify-content: center;
+  margin: auto; 
+}
+
+.about-page .about-icons  {
+  font-size: 65px;
+  justify-content: space-evenly;
+  
+  
+}
+
+
+
 
 
 

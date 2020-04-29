@@ -6,7 +6,7 @@ import LandingPage from './landing_page'
 export default function NavBar () {
    return <div className='navbar-style'>
             <Layout fixedHeader>
-                <Header className='header-color' title={<span><span style={{ color: '#ddd' }}> </span><Link to='/'><strong>Portfolio</strong></Link></span>}>
+                <Header className='header-color' title={<span><span style={{ color: '#ddd' }}> </span><Link to='/'><strong>Home</strong></Link></span>}>
                     <Navigation>
                         <Link to="/resume">Resume</Link>
                         <Link to="/about">About Me</Link>

@@ -29,10 +29,9 @@ class LandingPage extends Component {
                             </a>
 
                             {/* Github link*/}
-                            <a href="" rel="noopener noreferrer"  target="_blank">
+                            <a href="https://github.com/ChrisPupo22" rel="noopener noreferrer"  target="_blank">
                                 <i className= "fa fa-github-square" aria-hidden="true"/>
                             </a>
-
                         </div>
                         </div>
                     </Cell>
