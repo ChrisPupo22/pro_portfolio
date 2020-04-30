@@ -18,13 +18,13 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', color: 'white'}}>
                                         <i className="fa fa-paper-plane" aria-hidden="true"/>
-                                        <a href='mailto:cpupo822@gmail.com'>E-mail</a>
+                                        <a className='transition' href='mailto:cpupo822@gmail.com'>E-mail</a>
                                         </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', color: 'white'}}>
                                         <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                                        <a href='https://www.linkedin.com/in/christopher-pupo/' target='_blank'>My LinkedIn</a>
+                                        <a className='transition' href='https://www.linkedin.com/in/christopher-pupo/' target='_blank'>My LinkedIn</a>
                                     </ListItemContent>
                                 </ListItem>
                             </List>

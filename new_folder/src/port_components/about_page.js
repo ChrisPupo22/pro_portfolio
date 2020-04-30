@@ -8,19 +8,19 @@ class About extends Component {
                 {/* icons reflecting strengths: team-player, efficiency, communication, clean-code */}
                 <div className='icon-and-description'>
                     <div className='about-icons'>
-                        <div>
-                            <i id='test1' class='fa fa-users'></i>
-                            <p id='test1'>Positive & effective team-player</p>
+                        <div className='about-cards'>
+                            <i class='fa fa-users'></i>
+                            <p >Positive & effective team-player</p>
                         </div>
-                        <div>
+                        <div className='about-cards'>
                             <i class='fa fa-crosshairs'></i>
                             <p>Efficient and detail oriented</p>
                         </div>
-                        <div>
+                        <div className='about-cards'>
                             <i class='fa fa-comments'></i>
                             <p>Active communicator</p>
                         </div>
-                        <div>
+                        <div className='about-cards'>
                             <i class='fa fa-code'></i>  
                             <p>Clean and intuitive code</p>
                         </div>

@@ -39,6 +39,10 @@
   border-bottom: none;
 }
 
+#cardsTabs h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #mainTabs .mdl-tabs__tab-bar{
   border-bottom: none;
 }
@@ -228,9 +232,10 @@
 .download-comp {
   z-index: 4;
   /* height: 25px;  */
-  margin-top: 15px;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
   
 }
 
@@ -241,6 +246,8 @@
 
 .header-div h1 {
   margin-top: 0px;
+  margin-bottom: 7px;
+  padding-bottom: 15px;
 }
 
 .download-comp a {
@@ -262,6 +269,9 @@
 
 }
 
+.contact-body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .contact-list .mdl-list{
   justify-content: center;
@@ -273,6 +283,20 @@
   padding-right: 5rem;
   color: white; 
   
+}
+
+.contact-list .transition {
+  border: 2px solid black; 
+  padding: 7px; 
+  border-radius: 5px;
+  background: black;
+}
+
+.transition :hover {
+  transition: .3s; 
+  padding: 10px; 
+  color: black; 
+  background: white;
 }
 
 .mdl-list {
@@ -331,13 +355,23 @@
   margin-top: 35px;
   display: flex; 
   flex-direction: column;
+  border: 2px solid white; 
+  border-radius: 5px;
+  width: 90%; 
+  justify-content: center;
+  margin: auto;
+}
+
+.icon-and-description {
+  margin-bottom: 20px;
 }
 
 .character-description p {
-  font-size: 25px;
+  font-size: 40px;
   line-height: 1.4;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  background: white;
+  margin-bottom: 0px;
 }
 
 .about-page h2 {
@@ -354,9 +388,30 @@
   text-decoration: none;
 }
 
+.about-cards {
+  border: 5px solid black; 
+  border-radius: 5px;
+  padding: 7px; 
+  z-index: 3px;
+  background: black;
+}
 
+/* .about-cards :hover {
+  transition: .3s; 
+  border-radius: 7px;
+  color: black; 
+  background: white;
+} */
 
+.about-cards i {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
 
+.about-cards p {
+  line-height: 1.5;
+  font-size: 25px;
+}
 
 
 
