@@ -14,6 +14,9 @@ class Resume extends Component {
     render () {
         return(
             <div className='resume-grid'>
+              <div className='header-div'>
+                <h1>Resume</h1>
+              </div>
               <div className='resume-img-div'>
                 <img className='theResume' src={resume_pic} />
               </div>
